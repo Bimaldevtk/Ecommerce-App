@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+.TopContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:48px;
+    background-color:#000000; 
+}
+.TopHeader{
+ color:#FAFAFA; 
+ text-align:center;
+ display:flex;
+ flex-direction: row;
+ justify-content:center;
+ align-items:center;
+ font-family: 'Poppins',sans-serif;
+ gap: 6px;
+}
+/* .EnglishButton{
+    
+    
+
+} */
+.TopHead{
+    display: flex;
+    
+}
+.Exclusive{
+    color: #000000;
+    font-family: 'Poppins',sans-serif;
+}
+.Dialog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-left: 4rem;
+    
+}
+
+
+
+

@@ -1,0 +1,18 @@
+.thankyou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.thankyou-text{
+    text-align: center;
+}
+
+.thankyou-text h1{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.thankyou-text p{
+    font-size: 16px;
+    color: #8888;
+}
