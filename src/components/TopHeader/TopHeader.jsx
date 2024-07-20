@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../NavBar/Navbar";
 import "./TopHeader.css";
+import SearchBox from "../SearchBox/SearchBox"
 
 const TopHeader = () => {
   return (
@@ -26,9 +27,9 @@ const TopHeader = () => {
         <div>
           <Navbar />
         </div>
-        {/* <div>
+        <div>
           <SearchBox/>
-        </div> */}
+        </div>
       </div>
     </div>
   );

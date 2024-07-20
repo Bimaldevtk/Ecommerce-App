@@ -1,0 +1,39 @@
+/* src/components/Basket.css */
+
+.basket-dropdown {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .basket-empty {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .basket-items {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .basket-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .basket-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .basket-item-details {
+    flex: 1;
+  }
+  

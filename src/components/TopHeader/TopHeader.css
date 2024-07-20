@@ -36,10 +36,10 @@
 .Dialog{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 4rem;
-    margin-left: 4rem;
-    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+ 
 }
 
 

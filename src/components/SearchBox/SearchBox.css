@@ -1,0 +1,10 @@
+.components{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+}
+.compo1{
+    display: flex;
+    gap: 1rem;
+}
