@@ -1,24 +1,19 @@
 .maindiv{
     display: flex;
     flex-direction: row;
+
 }
-.form{
-    width: 50%;
-    height: 50%;
+
+.rightdiv{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    width: 50%;
+    height: 50%;
     align-items: center;
-    margin-top: 10rem;
+    justify-content: start;
 }
 
-.form-grp{
+.form{
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
-}
-
-.cartpic{
-    width: 50%;
-    height: 50%;
 }
