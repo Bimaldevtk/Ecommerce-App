@@ -33,13 +33,14 @@ const ForgotPass = () => {
       </div>
       <form className='form-grp' onSubmit={handlePasswordReset}>
         <input
+        className='form-item'
           type="email"
           value={email}
           onChange={handleEmailChange}
           placeholder='Enter Your Email'
           required
         />
-        <button type="submit">Submit</button>
+        <button  className='submit-btn' type="submit">Submit</button>
       </form>
       {message && <p>{message}</p>}
       </div>

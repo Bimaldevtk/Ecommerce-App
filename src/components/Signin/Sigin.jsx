@@ -40,6 +40,7 @@ const Sigin = () => {
           <p>Enter your details below</p>
           <form className='form-grp' onSubmit={handleLogin}>
             <input
+            className='form-item'
               type="email"
               value={email}
               onChange={handleEmailChange}
@@ -47,15 +48,16 @@ const Sigin = () => {
               required
             />
             <input
+            className='form-item'
               type="password"
               value={password}
               onChange={handlePasswordChange}
               placeholder='Password'
               required
             />
-            <button type="submit">Login</button>
+            <button className='submit-btn' type="submit">Login</button>
           </form>
-          <p>
+          <p className='p1'>
             <Link to="/Forgot">Forgot Password?</Link>
           </p>
         </div>

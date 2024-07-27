@@ -3,7 +3,8 @@ import './Signup.css';
 import { Link, useNavigate } from 'react-router-dom';
 import {auth,provider} from '../Firbase/Firebase';
 import { signInWithPopup, createUserWithEmailAndPassword } from "firebase/auth";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 const Signup = () => {
 
   const [email, setEmail] = useState('');
@@ -54,15 +55,22 @@ const Signup = () => {
         <div className='form'>
           <h1>Create an account</h1>
           <p>Enter your details below</p>
+          <div className='whole-form'>
           <form className='form-grp' onSubmit={handleSignUp}>
-            <input type="text" placeholder='Name' />
-            <input type="email" value={email} onChange={handleEmailChange} placeholder='Email' required />
-            <input type="password" value={password} onChange={handlePasswordChange} placeholder='Password' required />
-            <button type='submit'>Create Account</button>
-          </form>
-          <button onClick={handleGoogleSignIn}>Sign Up With Google</button>
-          <p>Already a member? <Link to="/Sigin">Sigin</Link></p>
-          <p>Forgot Password</p>
+            <input className='form-item' type="text" placeholder='Name' />
+            <input className='form-item' type="email" value={email} onChange={handleEmailChange} placeholder='Email' required />
+            <input className='form-item' type="password" value={password} onChange={handlePasswordChange} placeholder='Password' required />
+            <div className='btns'>
+            <button  className='submit-btn'  type='submit'>Create Account</button>
+            <button className='icon-btn' onClick={handleGoogleSignIn}>
+            <FontAwesomeIcon icon={faGoogle} className='google-icon' />
+          </button>
+          </div>
+           </form>
+        
+          <p className='p1'>Already a member? <Link to="/Sigin">Sigin</Link></p>
+          </div>
+        
         </div>
       </div>
     </div>

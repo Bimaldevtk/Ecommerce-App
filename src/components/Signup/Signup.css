@@ -16,9 +16,52 @@
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+
 }
 
 .cartpic{
     width: 50%;
     height: 50%;
+}
+
+/* .whole-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.form-item{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 3px solid #ccc;
+}
+
+.submit-btn{
+    
+    background-color: #DB4444;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+}
+
+.google-btn{
+    height: 3rem;
+}
+.btns{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.icon-btn{
+    width: 3rem;
+}
+.p1{
+    margin-top: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }

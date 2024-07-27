@@ -51,7 +51,7 @@ const Home = () => {
             </p>
             <div className="buttons-container">
               <button className="basket" onClick={() => addToBasket(product)}>
-                Add to Basket
+                Add to Cart
               </button>
               <FontAwesomeIcon
                 icon={faHeart}
